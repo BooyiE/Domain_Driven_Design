@@ -1,0 +1,13 @@
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Repositories\bin\Debug\netcoreapp3.1\Repositories.deps.json
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Repositories\bin\Debug\netcoreapp3.1\Repositories.dll
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Repositories\bin\Debug\netcoreapp3.1\Repositories.pdb
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Repositories\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Repositories\bin\Debug\netcoreapp3.1\Domain.DefenionObjects.dll
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Repositories\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Repositories\bin\Debug\netcoreapp3.1\Domain.DefenionObjects.pdb
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Repositories\obj\Debug\netcoreapp3.1\Repositories.csprojAssemblyReference.cache
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Repositories\obj\Debug\netcoreapp3.1\Repositories.AssemblyInfoInputs.cache
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Repositories\obj\Debug\netcoreapp3.1\Repositories.AssemblyInfo.cs
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Repositories\obj\Debug\netcoreapp3.1\Repositories.csproj.CopyComplete
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Repositories\obj\Debug\netcoreapp3.1\Repositories.dll
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Repositories\obj\Debug\netcoreapp3.1\Repositories.pdb
