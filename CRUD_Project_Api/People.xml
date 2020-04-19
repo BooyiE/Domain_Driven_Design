@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPerson_data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Person_data>
+    <Id>1</Id>
+    <Name>Nontobeko</Name>
+    <Surname>Xaba</Surname>
+    <Gender>Female</Gender>
+    <ContactNO>0783678221</ContactNO>
+    <Province>KwaZulu Natal</Province>
+  </Person_data>
+  <Person_data>
+    <Id>2</Id>
+    <Name>Agnes</Name>
+    <Surname>Hamilton</Surname>
+    <Gender>Female</Gender>
+    <ContactNO>0854576571</ContactNO>
+    <Province>Northern cape</Province>
+  </Person_data>
+  <Person_data>
+    <Id>3</Id>
+    <Name>William</Name>
+    <Surname>Morley</Surname>
+    <Gender>Male</Gender>
+    <ContactNO>0856893591</ContactNO>
+    <Province>Gauteng</Province>
+  </Person_data>
+  <Person_data>
+    <Id>4</Id>
+    <Name>Skhumkane</Name>
+    <Surname>Mlotshwa</Surname>
+    <Gender>Male</Gender>
+    <ContactNO>0776138700</ContactNO>
+    <Province>Free State</Province>
+  </Person_data>
+  <Person_data>
+    <Id>4</Id>
+    <Name />
+    <Surname />
+    <Gender>Male</Gender>
+    <ContactNO>0776138700</ContactNO>
+    <Province>Free State</Province>
+  </Person_data>
+  <Person_data>
+    <Id>4</Id>
+    <Name />
+    <Surname />
+    <Gender>Male</Gender>
+    <ContactNO>0776138700</ContactNO>
+    <Province>Free State</Province>
+  </Person_data>
+</ArrayOfPerson_data>
