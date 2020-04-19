@@ -1,0 +1,8 @@
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Domain.DefenionObjects\bin\Debug\netcoreapp3.1\Domain.DefenionObjects.deps.json
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Domain.DefenionObjects\bin\Debug\netcoreapp3.1\Domain.DefenionObjects.dll
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Domain.DefenionObjects\bin\Debug\netcoreapp3.1\Domain.DefenionObjects.pdb
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Domain.DefenionObjects\obj\Debug\netcoreapp3.1\Domain.DefenionObjects.csprojAssemblyReference.cache
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Domain.DefenionObjects\obj\Debug\netcoreapp3.1\Domain.DefenionObjects.AssemblyInfoInputs.cache
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Domain.DefenionObjects\obj\Debug\netcoreapp3.1\Domain.DefenionObjects.AssemblyInfo.cs
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Domain.DefenionObjects\obj\Debug\netcoreapp3.1\Domain.DefenionObjects.dll
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Domain.DefenionObjects\obj\Debug\netcoreapp3.1\Domain.DefenionObjects.pdb
