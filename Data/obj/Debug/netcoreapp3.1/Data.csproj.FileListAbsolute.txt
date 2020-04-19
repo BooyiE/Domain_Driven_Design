@@ -1,0 +1,8 @@
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Data\bin\Debug\netcoreapp3.1\Data.deps.json
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Data\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Data\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Data\obj\Debug\netcoreapp3.1\Data.csprojAssemblyReference.cache
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Data\obj\Debug\netcoreapp3.1\Data.dll
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Data\obj\Debug\netcoreapp3.1\Data.pdb
