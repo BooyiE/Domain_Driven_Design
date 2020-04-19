@@ -1,0 +1,15 @@
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Domain.Services project\bin\Debug\netcoreapp3.1\Domain.Services.deps.json
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Domain.Services project\bin\Debug\netcoreapp3.1\Domain.Services.dll
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Domain.Services project\bin\Debug\netcoreapp3.1\Domain.Services.pdb
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Domain.Services project\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Domain.Services project\bin\Debug\netcoreapp3.1\Domain.DefenionObjects.dll
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Domain.Services project\bin\Debug\netcoreapp3.1\Repositories.dll
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Domain.Services project\bin\Debug\netcoreapp3.1\Domain.DefenionObjects.pdb
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Domain.Services project\bin\Debug\netcoreapp3.1\Repositories.pdb
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Domain.Services project\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Domain.Services project\obj\Debug\netcoreapp3.1\Domain.Services.csprojAssemblyReference.cache
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Domain.Services project\obj\Debug\netcoreapp3.1\Domain.Services.AssemblyInfoInputs.cache
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Domain.Services project\obj\Debug\netcoreapp3.1\Domain.Services.AssemblyInfo.cs
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Domain.Services project\obj\Debug\netcoreapp3.1\Domain.Services.csproj.CopyComplete
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Domain.Services project\obj\Debug\netcoreapp3.1\Domain.Services.dll
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Domain.Services project\obj\Debug\netcoreapp3.1\Domain.Services.pdb
