@@ -17,23 +17,23 @@ namespace Domain.Services
             return people;
 
         }
-        public void CreatePeople(Person_data person)
+        public void CreatePeople(Person person)
         {
             var personRepository = new PersonRepository();
 
-               personRepository.CreatePeople(person);
+            personRepository.createPeople(person);
         }
-        public void UpdatePeople(int Id, Person_data person)
+        public void updatePeople(int Id, Person person)
         {
             var personRepository = new PersonRepository();
 
-            personRepository.UpdatePeople(Id, person);
+            personRepository.updatePeople(Id, person);
         }
-        public void DeletePeople(int id)
+        public void deletePeople(int id)
         {
             var personRepository = new PersonRepository();
 
-            personRepository.DeletePeople(id);
+            personRepository.deletePeople(id);
         }
     }
 }

@@ -68,11 +68,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bbdnet2223\\Desktop\\Domain_Driven_Design-ddd-\\Domain.Services project\\Domain.Services.csproj",
+      "projectUniqueName": "C:\\Users\\bbdnet2223\\Desktop\\Domain_Driven_Design-ddd-\\Domain.Services\\Domain.Services.csproj",
       "projectName": "Domain.Services",
-      "projectPath": "C:\\Users\\bbdnet2223\\Desktop\\Domain_Driven_Design-ddd-\\Domain.Services project\\Domain.Services.csproj",
+      "projectPath": "C:\\Users\\bbdnet2223\\Desktop\\Domain_Driven_Design-ddd-\\Domain.Services\\Domain.Services.csproj",
       "packagesPath": "C:\\Users\\bbdnet2223\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bbdnet2223\\Desktop\\Domain_Driven_Design-ddd-\\Domain.Services project\\obj\\",
+      "outputPath": "C:\\Users\\bbdnet2223\\Desktop\\Domain_Driven_Design-ddd-\\Domain.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
