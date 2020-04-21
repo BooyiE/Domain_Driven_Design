@@ -1,4 +1,4 @@
-﻿using Domain.DefenionObjects;
+﻿using Data;
 
 namespace CRUD_Project_Api.Models
 {
@@ -12,16 +12,16 @@ namespace CRUD_Project_Api.Models
 
         public string Province { get; set; }
 
-        public static PersonModel FromDomain(Person person)
+        public static PersonModel FromDomain(Person_data personData)
         {
             return new PersonModel
             {
-                Id = person.Id,
-                Name = person.Name,
-                Surname = person.Surname,
-                Gender = person.Gender,
-                ContactNO = person.ContactNO,
-                Province = person.Province
+                Id = personData.Id,
+                Name = personData.Name,
+                Surname = personData.Surname,
+                Gender = personData.Gender,
+                ContactNO = personData.ContactNO,
+                Province = personData.Province
 
             };
 
