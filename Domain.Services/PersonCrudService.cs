@@ -17,7 +17,16 @@ namespace Domain.Services
             return people;
 
         }
-        public void CreatePeople(Person person)
+
+        public Person GetPersonById(int id)
+        {
+            var personRepository = new PersonRepository();
+
+            var person = personRepository.GetPersonById(id);
+            return person;
+        }
+
+        public void createPeople(Person person)
         {
             var personRepository = new PersonRepository();
 
