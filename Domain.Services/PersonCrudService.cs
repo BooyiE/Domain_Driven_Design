@@ -29,8 +29,11 @@ namespace Domain.Services
         public void createPeople(Person person)
         {
             var personRepository = new PersonRepository();
-
-            personRepository.createPeople(person);
+            if (GetPersonById(person.Id) == null)
+            {
+                personRepository.createPeople(person);
+            }
+           
         }
         public void updatePeople(int Id, Person person)
         {
