@@ -23,6 +23,7 @@ namespace CRUD_Project_Api.Controllers
             return peopleModels.ToList();
 
         }
+
         [Microsoft.AspNetCore.Mvc.HttpGet("{Id}")]
 
         public PersonModel GetPersonById(int id)
@@ -39,10 +40,11 @@ namespace CRUD_Project_Api.Controllers
         [Microsoft.AspNetCore.Mvc.HttpPost]
         public IActionResult createPeople(PersonModel person)
         {
+          
             var personCrudService = new PersonCrudService();
             personCrudService.createPeople(person.ToDomain());
             //return CreatedAtAction("GetPeopleById", new { Id = person.Id }, person);
-            return Created($"https://localhost:44375/person/{person.Id}", person);
+            return Created($"https://localhost:44375/person/{person.Id}", GetPersonById(person.Id));
         }
 
         [Microsoft.AspNetCore.Mvc.HttpPut("{Id}")]
