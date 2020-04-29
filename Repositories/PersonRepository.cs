@@ -9,7 +9,7 @@ namespace Repositories
 {
     public class PersonRepository
     {
-        public Person ToDomain(Person personData)
+        public Person ToDomain(Person_data personData)
         {
             return new Person
             {
@@ -22,32 +22,32 @@ namespace Repositories
                 // set rest of properties.
             };
         }
-        public List<Person> peoplelist = new List<Person>
+        public List<Person_data> peoplelist = new List<Person_data>
         {
-           new Person { Id = 1, Name = "Nontobeko", Surname = "Xaba", Gender = "Female", ContactNO = "0783678221", Province = "KwaZulu Natal" },
-            new Person { Id = 2, Name = "Agnes", Surname = "Hamilton", Gender = "Female", ContactNO = "0854576571", Province = "Northern cape" },
-            new Person { Id = 3, Name = "William", Surname = "Morley", Gender = "Male", ContactNO = "0856893591", Province = "Gauteng" },
-            new Person { Id = 4, Name = "Skhumkane", Surname = "Mlotshwa", Gender = "Male", ContactNO = "0776138700", Province = "Free State" },
+           new Person_data { Id = 1, Name = "Nontobeko", Surname = "Xaba", Gender = "Female", ContactNO = "0783678221", Province = "KwaZulu Natal" },
+            new Person_data { Id = 2, Name = "Agnes", Surname = "Hamilton", Gender = "Female", ContactNO = "0854576571", Province = "Northern cape" },
+            new Person_data { Id = 3, Name = "William", Surname = "Morley", Gender = "Male", ContactNO = "0856893591", Province = "Gauteng" },
+            new Person_data { Id = 4, Name = "Skhumkane", Surname = "Mlotshwa", Gender = "Male", ContactNO = "0776138700", Province = "Free State" },
         };
-        public void Serialize(List<Person> people)
+        public void Serialize(List<Person_data> people)
         {
             var FilePath = @"C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\CRUD_Project_Api\People.xml";
             TextWriter txtWriter = new StreamWriter(FilePath);
 
-            XmlSerializer serializer = new XmlSerializer(typeof(List<Person>));
+            XmlSerializer serializer = new XmlSerializer(typeof(List<Person_data>));
 
             serializer.Serialize(txtWriter, people);
 
             txtWriter.Close();
         }
-        public List<Person> deserializer()
+        public List<Person_data> deserializer()
         {
             var FilePath = @"C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\CRUD_Project_Api\People.xml";
-            List<Person> peoples;
-            XmlSerializer serializer = new XmlSerializer(typeof(List<Person>));
+            List<Person_data> peoples;
+            XmlSerializer serializer = new XmlSerializer(typeof(List<Person_data>));
             using (Stream reader = new FileStream(FilePath, FileMode.Open))
             {
-                peoples = (List<Person>)serializer.Deserialize(reader);
+                peoples = (List<Person_data>)serializer.Deserialize(reader);
 
             }
             return peoples;
@@ -67,7 +67,7 @@ namespace Repositories
         }
         public Person GetPersonById(int id)
         {
-            var people = GetAll();
+            var people = deserializer();
             var selectedpersonById = people.FirstOrDefault(person => person.Id == id);
             Person _person = null;
             if (selectedpersonById != null)
@@ -77,17 +77,19 @@ namespace Repositories
             return _person;
         }
 
-        public void createPeople(Person personDatas)
+        public void createPeople(Person person)
         {
             var peopleData = deserializer();
-            peopleData.Add(personDatas);
+            var createdPersonData = Person_data.FromDomain(person);
+            peopleData.Add(createdPersonData);
             Serialize(peopleData);
             peopleData.Select(person => ToDomain(person));
         }
 
-        public void updatePeople(int Id, Person personDatas)
+        public void updatePeople(int Id, Person person)
         {
             var peopleData = deserializer();
+            var personDatas = Person_data.FromDomain(person);
             var selectedPerson = peopleData.FirstOrDefault(person => person.Id == Id);
             if (selectedPerson != null)
             {
