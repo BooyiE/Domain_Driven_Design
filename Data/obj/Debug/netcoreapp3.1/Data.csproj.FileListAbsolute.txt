@@ -6,3 +6,6 @@ C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Data\obj\Debug\netcoreapp3
 C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
 C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Data\obj\Debug\netcoreapp3.1\Data.dll
 C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Data\obj\Debug\netcoreapp3.1\Data.pdb
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Data\bin\Debug\netcoreapp3.1\Domain.DefenionObjects.dll
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Data\bin\Debug\netcoreapp3.1\Domain.DefenionObjects.pdb
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Data\obj\Debug\netcoreapp3.1\Data.csproj.CopyComplete

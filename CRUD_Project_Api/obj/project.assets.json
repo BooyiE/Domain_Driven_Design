@@ -2,6 +2,12 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Microsoft.AspNet.WebApi/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.WebHost": "[5.2.7, 5.3.0)"
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.7": {
         "type": "package",
         "dependencies": {
@@ -25,6 +31,18 @@
         },
         "runtime": {
           "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.WebHost/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Core": "[5.2.7, 5.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.WebHost.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.WebHost.dll": {}
         }
       },
       "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
@@ -1839,6 +1857,9 @@
       "Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Domain.DefenionObjects": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Data.dll": {}
         },
@@ -1887,6 +1908,17 @@
     }
   },
   "libraries": {
+    "Microsoft.AspNet.WebApi/5.2.7": {
+      "sha512": "r+nQLBQ857hw8Mfb5hrlMwr0nb7BE1Fp12LsSIZ9g6NT/hTZj8CYUi2UREfywIsGPQ4EIx14oWp8QPRps/i5CA==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi/5.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "microsoft.aspnet.webapi.5.2.7.nupkg.sha512",
+        "microsoft.aspnet.webapi.nuspec"
+      ]
+    },
     "Microsoft.AspNet.WebApi.Client/5.2.7": {
       "sha512": "/76fAHknzvFqbznS6Uj2sOyE9rJB3PltY+f53TH8dX9RiGhk02EhuFCWljSj5nnqKaTsmma8DFR50OGyQ4yJ1g==",
       "type": "package",
@@ -1916,6 +1948,19 @@
         "lib/net45/System.Web.Http.xml",
         "microsoft.aspnet.webapi.core.5.2.7.nupkg.sha512",
         "microsoft.aspnet.webapi.core.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.WebHost/5.2.7": {
+      "sha512": "m3TyD7R/cmbfXqkfgcnE0J/UEKklcPP5gsXR96//vLx2kTnsxuOqNlulJLl+Oto4fZMvhVPFZVR+KG9cLZM/PA==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.webhost/5.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Web.Http.WebHost.dll",
+        "lib/net45/System.Web.Http.WebHost.xml",
+        "microsoft.aspnet.webapi.webhost.5.2.7.nupkg.sha512",
+        "microsoft.aspnet.webapi.webhost.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
@@ -6204,8 +6249,8 @@
     },
     "Domain.Services/1.0.0": {
       "type": "project",
-      "path": "../Domain.Services project/Domain.Services.csproj",
-      "msbuildProject": "../Domain.Services project/Domain.Services.csproj"
+      "path": "../Domain.Services/Domain.Services.csproj",
+      "msbuildProject": "../Domain.Services/Domain.Services.csproj"
     },
     "Repositories/1.0.0": {
       "type": "project",
@@ -6215,9 +6260,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Domain.DefenionObjects >= 1.0.0",
       "Domain.Services >= 1.0.0",
-      "Microsoft.AspNet.WebApi.Core >= 5.2.7",
+      "Microsoft.AspNet.WebApi >= 5.2.7",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.1"
     ]
   },
@@ -6252,11 +6296,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\bbdnet2223\\Desktop\\Domain_Driven_Design-ddd-\\Domain.DefenionObjects\\Domain.DefenionObjects.csproj": {
-              "projectPath": "C:\\Users\\bbdnet2223\\Desktop\\Domain_Driven_Design-ddd-\\Domain.DefenionObjects\\Domain.DefenionObjects.csproj"
-            },
-            "C:\\Users\\bbdnet2223\\Desktop\\Domain_Driven_Design-ddd-\\Domain.Services project\\Domain.Services.csproj": {
-              "projectPath": "C:\\Users\\bbdnet2223\\Desktop\\Domain_Driven_Design-ddd-\\Domain.Services project\\Domain.Services.csproj"
+            "C:\\Users\\bbdnet2223\\Desktop\\Domain_Driven_Design-ddd-\\Domain.Services\\Domain.Services.csproj": {
+              "projectPath": "C:\\Users\\bbdnet2223\\Desktop\\Domain_Driven_Design-ddd-\\Domain.Services\\Domain.Services.csproj"
             }
           }
         }
@@ -6270,7 +6311,7 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
-          "Microsoft.AspNet.WebApi.Core": {
+          "Microsoft.AspNet.WebApi": {
             "target": "Package",
             "version": "[5.2.7, )"
           },
@@ -6308,6 +6349,16 @@
       "warningLevel": 1,
       "message": "Package 'Microsoft.AspNet.WebApi.Core 5.2.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.WebApi.Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.WebApi.WebHost 5.2.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.WebApi.WebHost",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
       ]

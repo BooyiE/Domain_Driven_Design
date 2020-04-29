@@ -5,3 +5,4 @@ C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Domain.DefenionObjects\obj
 C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Domain.DefenionObjects\obj\Debug\netcoreapp3.1\Domain.DefenionObjects.AssemblyInfo.cs
 C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Domain.DefenionObjects\obj\Debug\netcoreapp3.1\Domain.DefenionObjects.dll
 C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Domain.DefenionObjects\obj\Debug\netcoreapp3.1\Domain.DefenionObjects.pdb
+C:\Users\bbdnet2223\Desktop\Domain_Driven_Design-ddd-\Domain.DefenionObjects\obj\Debug\netcoreapp3.1\Domain.DefenionObjects.csprojAssemblyReference.cache

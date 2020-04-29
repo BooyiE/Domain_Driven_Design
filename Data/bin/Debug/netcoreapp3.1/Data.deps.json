@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "Data/1.0.0": {
+        "dependencies": {
+          "Domain.DefenionObjects": "1.0.0"
+        },
         "runtime": {
           "Data.dll": {}
+        }
+      },
+      "Domain.DefenionObjects/1.0.0": {
+        "runtime": {
+          "Domain.DefenionObjects.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain.DefenionObjects/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
