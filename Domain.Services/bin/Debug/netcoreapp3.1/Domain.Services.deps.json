@@ -16,6 +16,9 @@
         }
       },
       "Data/1.0.0": {
+        "dependencies": {
+          "Domain.DefenionObjects": "1.0.0"
+        },
         "runtime": {
           "Data.dll": {}
         }

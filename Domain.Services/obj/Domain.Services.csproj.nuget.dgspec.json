@@ -30,7 +30,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\bbdnet2223\\Desktop\\Domain_Driven_Design-ddd-\\Domain.DefenionObjects\\Domain.DefenionObjects.csproj": {
+                "projectPath": "C:\\Users\\bbdnet2223\\Desktop\\Domain_Driven_Design-ddd-\\Domain.DefenionObjects\\Domain.DefenionObjects.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
