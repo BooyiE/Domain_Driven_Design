@@ -15,25 +15,25 @@ namespace CRUD_Project_Api.Controllers
     {
         [Microsoft.AspNetCore.Mvc.HttpGet]
 
-        public IEnumerable GetPeople()
+        public ActionResult<IEnumerable> GetPeople()
         {
             var personCrudService = new PersonCrudService();
             var people = personCrudService.GetAll();
             var peopleModels = people.Select(person => PersonModel.FromDomain(person));
-            return peopleModels.ToList();
+            return Ok(peopleModels.ToList());
 
         }
 
         [Microsoft.AspNetCore.Mvc.HttpGet("{Id}")]
 
-        public PersonModel GetPersonById(int id)
+        public ActionResult<PersonModel> GetPersonById(int id)
         {
             var personCrudService = new PersonCrudService();
             var person = personCrudService.GetPersonById(id);
             PersonModel PersonFromDomain = null;
             if (person != null)
                 PersonFromDomain = PersonModel.FromDomain(person);
-            return PersonFromDomain;
+            return Ok(PersonFromDomain);
 
         }
 
@@ -43,8 +43,8 @@ namespace CRUD_Project_Api.Controllers
           
             var personCrudService = new PersonCrudService();
             personCrudService.createPeople(person.ToDomain());
-            //return CreatedAtAction("GetPeopleById", new { Id = person.Id }, person);
-            return Created($"https://localhost:44375/person/{person.Id}", GetPersonById(person.Id));
+            return CreatedAtAction("GetPersonById", new { id = person.Id }, person);
+            //return Created($"https://localhost:44375/person/{person.Id}", GetPersonById(person.Id));
         }
 
         [Microsoft.AspNetCore.Mvc.HttpPut("{Id}")]
@@ -52,7 +52,7 @@ namespace CRUD_Project_Api.Controllers
         {
             var personCrudService = new PersonCrudService();
             personCrudService.updatePeople(id, person.ToDomain());
-            return Ok(GetPersonById(id));
+            return Ok(personCrudService.GetPersonById(id));
         }
 
         [Microsoft.AspNetCore.Mvc.HttpDelete("{Id}")]
@@ -60,7 +60,7 @@ namespace CRUD_Project_Api.Controllers
         {
             var personCrudService = new PersonCrudService();
             personCrudService.deletePeople(Id);
-            return Ok(GetPeople());
+            return Ok(Id);
         }
     }
 }
